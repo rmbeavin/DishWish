@@ -7,5 +7,13 @@ import Sreach from './Sreach';
 import Info from './Info';
 import Footer from './Footer';
 
+class App extends Component{
+  render () {
+    return //HTML GOES HERE//
+  }
+}
+
+
+
 
 export default App;
