@@ -8,7 +8,7 @@ class Home extends Component{
           //main menu goes here.
         </div>
         <div class= "logo">
-          <img scr="https://files.slack.com/files-pri/T055GEHEJ-FF1LCANA3/logo-design-3.png" alt="Logo one"/>
+          <img class = "dishWishLogo" scr="https://files.slack.com/files-pri/T055GEHEJ-FF1LCANA3/logo-design-3.png" alt="Logo one"/>
         </div>
         <div class="body">
         <div class="search">
