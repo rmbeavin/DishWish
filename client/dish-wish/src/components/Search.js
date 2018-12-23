@@ -1,40 +1,44 @@
 import React, { Component } from 'react';
-import axios from 'axios'
+import axios from 'axios';
 
-header
-export default class Search extends Component{
-  render () {
-    return(
-      <form onSubmit={getUserInput()}>
-      <h4>Enter your ingredients:</h4>
-      <input placeholder="chicken, carrots, garlic" type="text" name="ingredients"></input>
-      <br></br>
-      <button>Submit</button>
-      </form>
-    )
+export default class Search extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      ingredientName: []
+    }
+
   }
-}
 
-getRecipes = (e) => {
-    e.preventDefault();
-    const recipes = []
-    console.log(recipes);
-    if(recipes){
-      axios.get(`https://www.recipepuppy.com/api/?i=${ingredients}`).then((res) => {
+  handleSubmit = (event) => {
+    event.preventDefault();
+    const ingredient = this.state;
+      const getRecipes = () => {
+      axios.get(`https://www.recipepuppy.com/api/?i=${ingredient}`).then((res) => {
         console.log(res.data)
-        const recipeArr = res.data;
-        this.setState({
-          name: recipeArr.name,
-
-        });
-      }).catch((err)) => {
-        this.setState({
-          recipeArr: 'No recipes found!'
-        })
-      }
+        const recipeArr = [res.data];
+      })
     }
   }
 
-  getUserInput() {
-
+  handleInputChange = (event) => {
+    event.preventDefault();
+    this.setState({
+      ['ingredientName'] : event.target.value
+    });
   }
+
+
+  render() {
+    const {ingredients} = this.state;
+    return (
+      <div>
+        <form onSubmit={this.handleSubmit}>
+          <p><input type="text" placeholder="chicken, rice, tomatoes, onions, etc." ingredientName='ingredient' onChange="this.handleInputChange"></input>
+          </p>
+          <button>Search</button>
+        </form>
+      </div>
+    )
+  }
+}
