@@ -4,14 +4,13 @@ import About from './About';
 import Home from './Home';
 import Header from './Header';
 import Logo from './Logo';
-import Sreach from './Sreach';
+import Search from './Search';
 import Info from './Info';
 import Footer from './Footer';
 
-class App extends Component{
+class App extends React.Component{
   render () {
-    return //HTML GOES HERE//
-    (
+    return (
       <Router>
 			<div>
 				<Route exact path="/" component={Home} />
@@ -21,8 +20,6 @@ class App extends Component{
     )
   }
 }
-
-
 
 
 export default App;
