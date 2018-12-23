@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 
 class Footer extends Component{
   render () {
-    return (//HTML GOES HERE//
-      <div class="foot">
-        <p>All Rights Reserved Copyright 2019 DishWish</p>
+    return (
+      <div>
+        <div class="copyright">
+          <p>All Rights Reserved Copyright 2019 DishWish</p>
+        </div>
+        <div class="contact">
+          <a href="#">Contact Us</a>
+        </div>
       </div>
     )
   }
