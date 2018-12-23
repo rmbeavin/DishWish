@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import Search from './Search';
 
 class Home extends Component{
   render() {
@@ -10,7 +11,7 @@ class Home extends Component{
         </div>
         <div className="body">
         <div className="search">
-          //API goes here, sreach bar.
+          <Search/>
         </div>
         <div className="results">
           //Results from search go here.
