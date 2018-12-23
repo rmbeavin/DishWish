@@ -29,6 +29,7 @@ export default class Search extends Component {
   }
 
 
+
   render() {
     const {ingredients} = this.state;
     return (
