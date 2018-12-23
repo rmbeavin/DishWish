@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class Home extends Component{
-  render () {
+  render() {
     return (
       <div>
         <div class="head">
@@ -12,20 +12,18 @@ class Home extends Component{
         </div>
         <div class="body">
         <div class="search">
-          <h2>Hello</h2>
-          // API goes here, search bar.
+          //API goes here, sreach bar.
         </div>
         <div class="results">
-          //Results from sreach go here.
+          //Results from search go here.
         </div>
         <div class="foot">
-          <p>All right reserved Jacobaallen.com, copyright 2018.</p>
+          <p>All Rights Reserved Copyright 2019 DishWish</p>
         </div>
       </div>
     </div>
     )
   }
 }
-
 
 export default Home;
