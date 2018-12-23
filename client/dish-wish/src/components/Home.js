@@ -12,7 +12,8 @@ class Home extends Component{
         </div>
         <div class="body">
         <div class="search">
-          //API goes here, sreach bar.
+          <h2>Hello</h2>
+          // API goes here, search bar.
         </div>
         <div class="results">
           //Results from sreach go here.
