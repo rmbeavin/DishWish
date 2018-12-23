@@ -1,24 +1,19 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Home extends Component{
   render() {
     return (
       <div>
-        <div class="head">
-          //main menu goes here.
+        <div className= "logo">
+          <img className="Logotwo" src="Logo-design-3.png" alt="  "/>
         </div>
-        <div class= "logo">
-          <img class = "dishWishLogo" scr="https://files.slack.com/files-pri/T055GEHEJ-FF1LCANA3/logo-design-3.png" alt="Logo one"/>
-        </div>
-        <div class="body">
-        <div class="search">
+        <div className="body">
+        <div className="search">
           //API goes here, sreach bar.
         </div>
-        <div class="results">
+        <div className="results">
           //Results from search go here.
-        </div>
-        <div class="foot">
-          <p>All Rights Reserved Copyright 2019 DishWish</p>
         </div>
       </div>
     </div>

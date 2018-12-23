@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class Info extends Component{
   render () {
-    return (//HTML GOES HERE//
-      <div class="bodyinfo">
-        <div class="menuResults">
+    return (
+      <div className="bodyinfo">
+        <div className="menuResults">
           <p>results show here.</p>
         </div>
       </div>

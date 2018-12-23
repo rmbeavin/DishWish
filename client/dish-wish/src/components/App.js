@@ -13,8 +13,10 @@ class App extends React.Component{
     return (
       <Router>
 			<div>
+        <Header/>
 				<Route exact path="/" component={Home} />
 				<Route path="/about" component={About} />
+        <Footer/>
 			</div>
 		</Router>
     )
