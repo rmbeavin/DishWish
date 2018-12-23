@@ -4,10 +4,10 @@ class Footer extends Component{
   render () {
     return (
       <div>
-        <div class="copyright">
+        <div className="copyright">
           <p>All Rights Reserved Copyright 2019 DishWish</p>
         </div>
-        <div class="contact">
+        <div className="contact">
           <a href="#">Contact Us</a>
         </div>
       </div>

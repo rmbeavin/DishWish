@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Header extends Component{
   render () {
-    return (//HTML GOES HERE//
-      <div class="head">
-        //hearder information
+    return (
+      <div className="nav">
+        <ul>
+          <Link to="/">Home</Link>
+          <Link to="/About">About</Link>
+        </ul>
       </div>
     )
   }
