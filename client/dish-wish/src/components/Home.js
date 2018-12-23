@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 class Home extends Component{
-  render () {
-    return (//HTML GOES HERE//
+  render() {
+    return (
       <div>
         <div class="head">
           //main menu goes here.
@@ -25,6 +25,5 @@ class Home extends Component{
     )
   }
 }
-
 
 export default Home;
