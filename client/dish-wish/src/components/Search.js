@@ -24,9 +24,10 @@ export default class Search extends Component {
   handleInputChange = (event) => {
     event.preventDefault();
     this.setState({
-      ['ingredientName'] : event.target.value
+      ['ingredientname'] : event.target.value
     });
   }
+
 
 
   render() {
@@ -34,7 +35,7 @@ export default class Search extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <p><input type="text" placeholder="chicken, rice, tomatoes, onions, etc." ingredientName='ingredient' onChange="this.handleInputChange"></input>
+          <p><input type="text" placeholder="chicken, rice, tomatoes, onions, etc." ingredientname='ingredient' onChange={this.handleInputChange}></input>
           </p>
           <button>Search</button>
         </form>
