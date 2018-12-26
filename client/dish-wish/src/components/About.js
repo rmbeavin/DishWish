@@ -15,8 +15,8 @@ class About extends Component{
 
           <div className="mainContent">
             <p className="aboutParagraph">Wondering what to cook? This is a random recipe generator based on the ingredients you have readily available! DishWish was founded in 2018 by Robert Beavin, Stephanie Olaya and Jacob Allen as a service for people who struggle to come up with recipes on a day to day basis. The recipe is generated instantly, on the click of a button. </p>
-            <p className="motto">Our motto:
-              <p className="mottotext">Your dish, on demand</p>
+            <p className="motto">Our motto:</p>
+              <p className="mottotext">Your dish, on demand
             </p>
           </div>
 
