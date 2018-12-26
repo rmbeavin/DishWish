@@ -3,9 +3,36 @@
 }
 
 .aboutTitle {
+  display: flex;
+  border: solid black;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aboutParagraph {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
   border: solid black;
 }
 
-.myCarousel {
-  height: 3em;
+.motto{
+  display: flex;
+  flex-direction: column;
+  width: 30%
 }
