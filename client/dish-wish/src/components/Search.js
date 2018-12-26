@@ -17,8 +17,7 @@ export default class Search extends React.Component{
     e.preventDefault();
     let userInput = JSON.stringify(this.state.ingredientName).slice(1,-1);
       axios.get(`http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${userInput}`).then((res) => {
-      console.log(res.data.results);
-      console.log(res.data.results[1].title);
+      console.log(res.data.results)
       });
   };
     render(){

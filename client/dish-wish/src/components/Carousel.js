@@ -6,9 +6,11 @@ import { Carousel } from 'react-responsive-carousel';
 class DemoCarousel extends Component {
     render() {
         return (
-            <Carousel>
-                <div>
-                    <img src="appetizer.jpg" />
+            <Carousel autoPlay
+              height={400}
+              width={800}>
+                <div className="appetizer">
+                    <img src="appetizer.jpg"/>
                 </div>
                 <div>
                     <img src="mainDish.jpeg" />
@@ -20,5 +22,7 @@ class DemoCarousel extends Component {
         );
     }
 };
+
+// ReactDOM.render(<DemoCarousel />, document.querySelector('.demo-carousel')
 
 export default DemoCarousel

@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
-
 
 class Footer extends Component{
   render () {
     return (
       <div className="bottom">
         <div className="contact">
-          <ul>
-          <Link to="/contact">Contact Us</Link>
-          </ul>
+          <a href="#">Contact Us</a>
         </div>
         <div className="copyright">
           <p>All Rights Reserved Copyright 2019 DishWish</p>
