@@ -7,6 +7,7 @@ import Logo from './Logo';
 import Search from './Search';
 import Info from './Info';
 import Footer from './Footer';
+import DemoCarousel from './Carousel'
 
 class App extends React.Component{
   render () {

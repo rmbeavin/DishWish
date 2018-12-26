@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '../styles/about.css';
+import DemoCarousel from './Carousel'
 
 
 
@@ -18,10 +20,8 @@ class About extends Component{
             <p className="easyToUse"> It is easy to use, just input the ingredients you have on the search bar, and a recipe will be generated</p>
           </div>
 
-          <div className="aboutImages">
-            <img className="appetizer" src="appetizer.jpg" alt="" />
-            <img className="mainDish" src="mainDish.jpeg" alt="" />
-            <img className="dessert" src="dessert.jpeg" alt=""/>
+          <div className="myCarousel">
+            <DemoCarousel/>
           </div>
 
           <div>
