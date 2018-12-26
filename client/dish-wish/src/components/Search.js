@@ -3,6 +3,7 @@ import axios from 'axios';
 import Info from './Info';
 
 
+
 export default class Search extends React.Component{
   state = {
     ingredientName: ''
@@ -15,9 +16,8 @@ export default class Search extends React.Component{
   onSubmit(e) {
     e.preventDefault();
     let userInput = JSON.stringify(this.state.ingredientName).slice(1,-1);
-
-      axios.get(`https://www.recipepuppy.com/api/?i=${userInput}`).then((res) => {
-        console.log(res.data)
+      axios.get(`http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${userInput}`).then((res) => {
+      console.log(res.data.results)
       });
   };
     render(){
