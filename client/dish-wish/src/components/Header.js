@@ -5,7 +5,7 @@ import '../styles/header.css';
 class Header extends Component{
   render () {
     return (
-      <div className="navbar">
+      <div className="navbars">
         <ul>
           <Link to="/">Home</Link>
           <Link to="/About">About</Link>
