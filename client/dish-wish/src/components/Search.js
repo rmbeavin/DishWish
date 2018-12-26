@@ -14,8 +14,9 @@ export default class Search extends React.Component{
   };
   onSubmit(e) {
     e.preventDefault();
-    const userInput = JSON.stringify(this.state);
-      axios.get(`https://www.recipepuppy.com/api/?i=${this.state}`).then((res) => {
+    let userInput = JSON.stringify(this.state.ingredientName).substring(1);
+
+      axios.get(`https://www.recipepuppy.com/api/?i=${userInput}`).then((res) => {
         console.log(res.data)
       });
   };
