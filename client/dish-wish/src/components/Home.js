@@ -14,7 +14,7 @@ class Home extends Component{
           <Search/>
         </div>
         <div className="results">
-          //Results from search go here.
+          <p>Ingredients entered are </p>
         </div>
       </div>
     </div>
