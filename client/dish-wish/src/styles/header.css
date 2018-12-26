@@ -2,6 +2,8 @@
   overflow: hidden;
   background-color: #f9f577;
   font-family: 'Montserrat', sans-serif;
+  width: 90vw;
+  margin: auto;
 }
 
 .navbar a {
