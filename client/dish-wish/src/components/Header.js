@@ -6,16 +6,20 @@ class Header extends Component{
   render () {
     return (
       <div className="navbar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
+        <ul>
+          <Link to="/">Home</Link>
+          <Link to="/About">About</Link>
+        </ul>
         <div className="dropdown">
           <button className="dropbtn">Dropdown
             <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">
-            <a href="#">Contact</a>
-            <a href="#">FAQ</a>
-            <a href="#">Founders</a>
+            <ul>
+              <Link to="/Contact">Contact Us</Link>
+              <Link to="/FAQ">FAQ</Link>
+              <Link to="/Founders">Founders</Link>
+            </ul>
           </div>
         </div>
       </div>

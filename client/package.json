@@ -17,7 +17,8 @@
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.3",
-    "react": "^16.7.0"
+    "react": "^16.7.0",
+    "react-responsive-carousel": "^3.1.45"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
