@@ -1,13 +1,9 @@
 import React from 'react';
-import Cards from './Cards';
 import axios from 'axios';
 import {Grid} from 'semantic-ui-react';
 import Search from './Search';
 import DisplayRecipe from './Cards';
 
-const words = {
-  margin: '40px'
-}
 class Display extends React.Component {
   state = {
     recipes: [],
@@ -39,5 +35,4 @@ class Display extends React.Component {
       );
     }
   }
-
 export default Display;

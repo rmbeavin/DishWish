@@ -1,8 +1,4 @@
 import React from 'react';
-import axios from 'axios';
-import Info from './Info';
-
-
 
 const Search = (props) => {
     return (
@@ -14,5 +10,4 @@ const Search = (props) => {
       </div>
     )
 };
-
 export default Search;

@@ -5,7 +5,7 @@ class Footer extends Component{
     return (
       <div className="bottom">
         <div className="contact">
-          <a href="#">Contact Us</a>
+          <p>Contact Us</p>
         </div>
         <div className="copyright">
           <p>All Rights Reserved Copyright 2019 DishWish</p>

@@ -1,31 +1,27 @@
 import React from 'react';
 import { Grid, Card, Image } from 'semantic-ui-react';
-import Search from './Search';
-import Recipes from './Recipes';
 
 const cards = {
-  width: '300px',
-  height: '450px',
+  width: '600px',
+  height: '550px',
   margin: '10px'
 }
-
-
-
-// {props.recipes.title ? <p>{props.recipes.title}</p> : null}
-
 const DisplayRecipe = (props) => {
     return (
      <div style={cards}>
           <Grid.Column >
             <Grid.Row >
               <Card>
-                <p>test</p>
-                <p>{props.recipe.title}</p>
+                <Image src={props.recipe.thumbnail} width='300px' height='200px'/>
+                  <Card.Content>
+                    <p>{props.recipe.title}</p>
+                    <p>{props.recipe.href}</p>
+                    <p>{props.recipe.ingredients}</p>
+                  </Card.Content>
               </Card>
            </Grid.Row>
           </Grid.Column>
         </div>
     );
   }
-
-  export default DisplayRecipe;
+export default DisplayRecipe;
