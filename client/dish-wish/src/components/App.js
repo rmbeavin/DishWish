@@ -8,6 +8,9 @@ import Search from './Search';
 import Info from './Info';
 import Footer from './Footer';
 import DemoCarousel from './Carousel'
+import FAQ from "./FAQ"
+import Contact from "./Contact"
+import Founders from "./Founders"
 
 class App extends React.Component{
   render () {
@@ -17,13 +20,9 @@ class App extends React.Component{
         <Header/>
 				<Route exact path="/" component={Home} />
 				<Route path="/about" component={About} />
-
         <Route path="/contact" component={Contact} />
         <Route path="/faq" component={FAQ} />
         <Route path="/founders" component={Founders} />
-        
-
-
         <Footer/>
 			</div>
 		</Router>

@@ -30,7 +30,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: aqua;
+  background-color: #ffb366;
 }
 
 .dropdown-content {
