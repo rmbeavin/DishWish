@@ -8,37 +8,28 @@ import DisplayRecipe from './Cards';
 const words = {
   margin: '40px'
 }
-
 class Display extends React.Component {
   state = {
-    recipes: []
+    recipes: [],
+    ingredientName: ''
   }
-
-  componentDidMount() {
-    axios.get(`http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=chicken`)
-    .then(({data}) => {
-      this.setState({recipes: data.results})
-      console.log(this.state.recipes);
-    }).catch(err => {
-      console.log(err.message);
+  handleSearchChange = e => {
+    this.setState({
+      ingredientName: e.target.value
     });
-  }
-
-  // componentDidUpdate() {
-  //   if(this.state.category !== '')  {
-  //     axios.get(`/api/${this.state.category}`)
-  //       .then(({data}) => {
-  //         this.setState({articles: data})
-  //       })
-  //   }
-  // }
-
-  // handleChange = (e, { value }) => this.setState({ category: `${value}`  })
-
-
+  };
+  onSubmit = (e) => {
+    e.preventDefault();
+      axios.get(`http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${this.state.ingredientName}`).then((res) => {
+      console.log(res.data.results);
+      this.setState({recipes: res.data.results})
+      });
+  };
   render() {
     return(
       <div>
+        <Search handleSearchChange={this.handleSearchChange} ingredientValue={this.state.ingredientName} onSubmit={this.onSubmit} />
+        <br></br>
         <Grid className="background" columns='equal' centered>
           {this.state.recipes.map((recipe, index) => {
             return <DisplayRecipe key={index} recipe={recipe} />
