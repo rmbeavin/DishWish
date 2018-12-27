@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import Search from './Search';
+import Recipes from './Recipes';
 
 class Home extends Component{
   render() {
@@ -11,7 +11,7 @@ class Home extends Component{
         </div>
         <div className="body">
         <div className="search">
-          <Search/>
+          <Recipes />
         </div>
         <div className="results">
           <p>Ingredients entered are </p>
