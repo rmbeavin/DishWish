@@ -10,7 +10,7 @@ class Footer extends Component{
           <Link to="/Contact">Contact Us</Link>
         </div>
         <div className="copyright">
-          All Rights Reserved Copyright 2019 DishWish.
+          All Rights Reserved Copyright 2019 DishWish, LLC.
         </div>
         <div className="socials">
           <img className="facebook" src="facebook.png" alt="  "/>
