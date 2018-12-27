@@ -26,4 +26,5 @@ const DisplayRecipe = (props) => {
         </div>
     );
   }
+  
 export default DisplayRecipe;
