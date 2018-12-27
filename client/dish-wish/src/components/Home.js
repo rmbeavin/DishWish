@@ -13,7 +13,6 @@ class Home extends Component{
           <Recipes />
         </div>
         <div className="results">
-
         </div>
       </div>
     </div>

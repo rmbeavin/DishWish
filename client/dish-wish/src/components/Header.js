@@ -20,7 +20,6 @@ class Header extends Component{
             <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">
-
             <ul>
               <Link to="/Contact">Contact Us</Link>
               <Link to="/FAQ">FAQ</Link>
