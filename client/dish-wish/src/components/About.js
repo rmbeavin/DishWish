@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/about.css';
-import DemoCarousel from './Carousel'
+import DemoCarousel from './Carousel';
 
 
 
