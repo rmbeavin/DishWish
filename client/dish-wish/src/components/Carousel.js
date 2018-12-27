@@ -9,7 +9,7 @@ class DemoCarousel extends Component {
               height={400}
               width={800}>
                 <div className="appetizer">
-                    <img src="appetizer.jpg"/>
+                    <img src="appetizer.jpeg"/>
                 </div>
                 <div>
                     <img src="mainDish.jpeg" />

@@ -7,8 +7,13 @@ class Header extends Component{
     return (
       <div className="navbar">
         <ul>
+
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
+
         </ul>
         <div className="dropdown">
           <button className="dropbtn">Dropdown

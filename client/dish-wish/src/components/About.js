@@ -13,21 +13,42 @@ class About extends Component{
             <h1 className="aboutTitle">About DishWish</h1>
           </header>
 
+
+          <div className = "DemoCarousel">
+            <DemoCarousel/>
+          </div>
+
+          <div className="fridgetoPlate">
+            <img src="fridge.png" alt="" />
+            <img src="orangearrow.png" alt="" />
+            <img src="computer.png" alt="" />
+            <img src="orangearrow.png" alt="" />
+            <img src="cutlery.png" alt="" />
+          </div>
+
+          <div className="companyMotto">
+              <p className="mottotext">Your dish, on demand</p>
+          </div>
+
+          <div className="mainContent">
+            <div className="picAndQuestion">
+              <p className="wonder">What is DishWish?</p>
+              <p className="aboutParagraph"> This is a random recipe generator based on the ingredients you have readily available! DishWish was founded in 2018 by Robert Beavin, Stephanie Olaya and Jacob Allen as a service for people who struggle to come up with recipes on a day to day basis. The recipe is generated instantly, on the click of a button.</p>
+            </div>
+            <img className="stockedfridge" src="stockedfridge.jpg" alt="" />
+
           <div className="mainContent">
             <p className="aboutParagraph">Wondering what to cook? This is a random recipe generator based on the ingredients you have readily available! DishWish was founded in 2018 by Robert Beavin, Stephanie Olaya and Jacob Allen as a service for people who struggle to come up with recipes on a day to day basis. The recipe is generated instantly, on the click of a button. </p>
             <p className="motto">Our motto:</p>
               <p className="mottotext">Your dish, on demand
             </p>
+
           </div>
 
           <div className="whyUs">
-            <p className="instantService">instant service</p>
+            <p className="instantService">Instant service</p>
             <p className="convenience">Can be used anywhere, even at the comfort of your own home.</p>
             <p className="easyToUse"> It is easy to use, just input the ingredients you have on the search bar, and a recipe will be generated</p>
-          </div>
-
-          <div>
-            <DemoCarousel/>
           </div>
 
           <div>
@@ -35,11 +56,14 @@ class About extends Component{
             <p className ="highlight2">We have a million recipes for you to try.</p>
           </div>
 
-          <div className="socialMedia">
-            <img className="twitter" src="#" alt="" />
-            <img className="instagram" src="#" alt="" />
-            <img className="facebook" src="#" alt="" />
-            <img className="pinterest" src="#" alt="" />
+          <div>
+            <p className="howItWorks">How it works</p>
+            <div className="howItWorksContent">
+              <p className="step1"> 1. Look at the ingredients you have available</p>
+              <p className="step2">2. Input your ingredients in the searchbar</p>
+              <p className="step3">3. Search</p>
+              <p className="step4">4. Pick a recipe and start cooking!</p>
+            </div>
           </div>
         </div>
     </section>

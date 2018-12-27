@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 #about {
-  font-family: 'Montserrat', sans-serif;
+   font-family: 'Josefin Sans', cursive;
 }
 
 .aboutTitle {
   display: flex;
-  border: solid black;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: 3em;
+  background-color: #7aabf9;
+  color: white;
+  border: solid orange;
+  border-radius: 2em;
+  padding: .2em;
+  padding-top: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+
 }
 
 
@@ -17,22 +26,179 @@
   justify-content: center;
 }
 
+.fridgetoPlate{
+  display: flex;
+  margin: 5em;
+  justify-content: space-between;
+  padding:2em;
+
+}
+
+.companyMotto{
+  display: flex;
+  font-size: 3em;
+  background-color: orange;
+  color: white;
+  border-top: solid #7aabf9;
+  border-bottom: solid#7aabf9;
+  border-width: .2em;
+  justify-content: center;
+}
 
 .mainContent {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 1em;
+  padding: 2em;
+}
+
+.picAndQuestion{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.wonder{
+  display: flex;
+  font-size: 3em;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #7aabf9;
+  border-radius: 2em;
+  padding-left: 2em;
+  height: 2em;
+  padding-right: -2em;
+  border: solid orange;
+  color: white;
+  padding-top: .2em;
 }
 
 .aboutParagraph {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  font-size: 2em;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2em;
+  padding-left: 2em;
+}
+
+.stockedfridge{
+  display: flex;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 3em;
+}
+
+.motto{
   display: flex;
   flex-direction: column;
   width: 30%;
   border: solid black;
 }
 
-.motto{
+.whyUs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: dotted #7aabf9;
+  border-bottom: dotted #7aabf9;
+  width: 100%;
+  align-items: space-between;
+}
+
+.instantService {
   display: flex;
   flex-direction: column;
-  width: 30%
+  color: white;
+  background-color: orange;
+  padding: 2em;
+  margin: 2em;
+  width: 33;
+}
+
+.convenience {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: orange;
+  padding: 2em;
+  margin: 2em;
+  width: 33%;
+}
+
+.easyToUse{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: orange;
+  padding: 2em;
+  margin: 2em;
+  width: 33%;
+}
+
+.howItWorks{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2em;
+  align-content: center;
+  background-color: #7aabf9;
+  color: white;
+  padding: 1em;
+  border-top: solid orange;
+  border-bottom: solid orange;
+  margin-top: 3em;
+}
+
+.howItWorksContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.step1{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.step2{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.step3{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.step4{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.DemoCarousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  padding: 2em;
+}
+
+.highlight {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  margin-top: 4em;
+}
+
+.highlight2 {
+  display: flex;
+  justify-content: center;
 }
