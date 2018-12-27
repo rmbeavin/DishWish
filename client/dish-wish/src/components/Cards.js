@@ -13,7 +13,7 @@ const DisplayRecipe = (props) => {
             <Grid.Row >
               <Card.Group>
               <Card>
-                <Image src={props.recipe.thumbnail} width='300px' height='200px'/>
+                <Image src={props.recipe.thumbnail} width='150px' height='150px' centered/>
                 <Card.Header><h4>{props.recipe.title}</h4></Card.Header>
                 <Card.Content>
                     <a href={props.recipe.href}>Take Me There!</a>
@@ -26,4 +26,5 @@ const DisplayRecipe = (props) => {
         </div>
     );
   }
+  
 export default DisplayRecipe;
