@@ -1,32 +1,27 @@
-// import React from 'react';
-// import { Grid, Segment } from 'semantic-ui-react'
-// import { Card, Icon, Image } from 'semantic-ui-react'
-// import Search from './Search';
-//
-// const cards = {
-//   width: '300px',
-//   height: '450px',
-//   margin: '10px'
-// }
-//
-//
-//
-//
-//
-// const DisplayRecipe = (props) => {
-//     return (
-//      <div style={cards}>
-//           <Grid.Column >
-//             <Grid.Row >
-//               <Card style={cards}
-//
-//                 {props.recipes.href && <p>By: {props.recipes.href}</p>}
-//                 {props.recipes.ingredients && <p>{props.recipes.ingredients}</p>}
-//               </Card>
-//            </Grid.Row>
-//           </Grid.Column>
-//         </div>
-//     );
-//   }
-//
-//   export default DisplayRecipe;
+import React from 'react';
+import { Grid, Card, Image } from 'semantic-ui-react';
+
+const cards = {
+  width: '600px',
+  height: '550px',
+  margin: '10px'
+}
+const DisplayRecipe = (props) => {
+    return (
+     <div style={cards}>
+          <Grid.Column >
+            <Grid.Row >
+              <Card>
+                <Image src={props.recipe.thumbnail} width='300px' height='200px'/>
+                  <Card.Content>
+                    <p>{props.recipe.title}</p>
+                    <p>{props.recipe.href}</p>
+                    <p>{props.recipe.ingredients}</p>
+                  </Card.Content>
+              </Card>
+           </Grid.Row>
+          </Grid.Column>
+        </div>
+    );
+  }
+export default DisplayRecipe;

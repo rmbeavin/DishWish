@@ -13,6 +13,7 @@ class About extends Component{
             <h1 className="aboutTitle">About DishWish</h1>
           </header>
 
+
           <div className = "DemoCarousel">
             <DemoCarousel/>
           </div>
@@ -35,6 +36,13 @@ class About extends Component{
               <p className="aboutParagraph"> This is a random recipe generator based on the ingredients you have readily available! DishWish was founded in 2018 by Robert Beavin, Stephanie Olaya and Jacob Allen as a service for people who struggle to come up with recipes on a day to day basis. The recipe is generated instantly, on the click of a button.</p>
             </div>
             <img className="stockedfridge" src="stockedfridge.jpg" alt="" />
+
+          <div className="mainContent">
+            <p className="aboutParagraph">Wondering what to cook? This is a random recipe generator based on the ingredients you have readily available! DishWish was founded in 2018 by Robert Beavin, Stephanie Olaya and Jacob Allen as a service for people who struggle to come up with recipes on a day to day basis. The recipe is generated instantly, on the click of a button. </p>
+            <p className="motto">Our motto:</p>
+              <p className="mottotext">Your dish, on demand
+            </p>
+
           </div>
 
           <div className="whyUs">
