@@ -8,10 +8,11 @@ export default class Search extends React.Component{
   state = {
     ingredientName: ''
   };
-  change = e => {
+  handleChange = e => {
     this.setState({
       [e.target.name] : e.target.value
     });
+    console.log(this.state.ingredientName);
   };
   onSubmit(e) {
     e.preventDefault();
@@ -24,8 +25,8 @@ export default class Search extends React.Component{
     return (
       <div>
       <form>
-      <input name="ingredientName" placeholder="chicken, rice, tomatoes, etc" value={this.state.ingredientName} onChange={e => this.change(e)}/>
-      <button onClick={e => this.onSubmit(e)}>Submit</button>
+        <input name="ingredientName" placeholder="chicken, rice, tomatoes, etc" value={this.state.ingredientName} onChange={e => this.handleChange(e)}/>
+        <button onClick={e => this.onSubmit(e)}>Submit</button>
       </form>
       </div>
     )
