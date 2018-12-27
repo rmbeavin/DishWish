@@ -2,8 +2,8 @@ import React from 'react';
 import { Grid, Card, Image } from 'semantic-ui-react';
 
 const cards = {
-  width: '600px',
-  height: '550px',
+  width: '550px',
+  height: '500px',
   margin: '10px'
 }
 const DisplayRecipe = (props) => {
@@ -11,14 +11,16 @@ const DisplayRecipe = (props) => {
      <div style={cards}>
           <Grid.Column >
             <Grid.Row >
+              <Card.Group>
               <Card>
                 <Image src={props.recipe.thumbnail} width='300px' height='200px'/>
-                  <Card.Content>
-                    <p>{props.recipe.title}</p>
-                    <p>{props.recipe.href}</p>
-                    <p>{props.recipe.ingredients}</p>
+                <Card.Header><h4>{props.recipe.title}</h4></Card.Header>
+                <Card.Content>
+                    <a href={props.recipe.href}>Take Me There!</a>
+                    <p>Ingredients: {props.recipe.ingredients}</p>
                   </Card.Content>
               </Card>
+              </Card.Group>
            </Grid.Row>
           </Grid.Column>
         </div>

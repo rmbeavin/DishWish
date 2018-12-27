@@ -8,7 +8,7 @@ class About extends Component{
   render () {
     return (
       <section id ='about'>
-      <div>
+        <div>
           <header className="header">
             <h1 className="aboutTitle">About DishWish</h1>
           </header>
