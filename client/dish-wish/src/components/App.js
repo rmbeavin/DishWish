@@ -11,6 +11,8 @@ import DemoCarousel from './Carousel'
 import FAQ from './FAQ';
 import Founders from './Founders';
 import Contact from './Contact';
+import Cards from './Cards';
+import Recipes from './Recipes';
 
 class App extends React.Component{
   render () {
@@ -23,6 +25,7 @@ class App extends React.Component{
         <Route path="/contact" component={Contact} />
         <Route path="/faq" component={FAQ} />
         <Route path="/founders" component={Founders} />
+        <Recipes />
         <Footer/>
 			</div>
 		</Router>
