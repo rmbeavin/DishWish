@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 import Recipes from './Recipes';
 
 class Home extends Component{
@@ -14,7 +13,7 @@ class Home extends Component{
           <Recipes />
         </div>
         <div className="results">
-          <p>Ingredients entered are </p>
+
         </div>
       </div>
     </div>
