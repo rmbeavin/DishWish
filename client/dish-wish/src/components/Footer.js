@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
+import '../styles/footer.css';
 
 class Footer extends Component{
   render () {
     return (
       <div className="bottom">
-        <div className="contact">
-          <p>Contact Us</p>
+        <div className="contacts">
+          <Link to="/Contact">Contact Us</Link>
         </div>
         <div className="copyright">
-          <p>All Rights Reserved Copyright 2019 DishWish</p>
+          All Rights Reserved Copyright 2019 DishWish.
         </div>
         <div className="socials">
           <img className="facebook" src="facebook.png" alt="  "/>

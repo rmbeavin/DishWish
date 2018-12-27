@@ -4,10 +4,6 @@ import About from './About';
 import Home from './Home';
 import Header from './Header';
 import Footer from './Footer';
-import FAQ from "./FAQ"
-import Contact from "./Contact"
-import Founders from "./Founders"
-
 
 class App extends React.Component{
   render () {

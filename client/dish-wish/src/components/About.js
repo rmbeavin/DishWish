@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/about.css';
-import DemoCarousel from './Carousel'
+import DemoCarousel from './Carousel';
 
 
 
@@ -12,7 +12,6 @@ class About extends Component{
           <header className="header">
             <h1 className="aboutTitle">About DishWish</h1>
           </header>
-
 
           <div className = "DemoCarousel">
             <DemoCarousel/>
@@ -39,9 +38,9 @@ class About extends Component{
           </div>
 
           <div className="whyUs">
-            <p className="instantService">Instant service</p>
+            <p className="instantService">Instant service.</p>
             <p className="convenience">Can be used anywhere, even at the comfort of your own home.</p>
-            <p className="easyToUse"> It is easy to use, just input the ingredients you have on the search bar, and a recipe will be generated</p>
+            <p className="easyToUse"> It is easy to use, just input the ingredients you have on the search bar, and a recipe will be generated.</p>
           </div>
 
           <div>
@@ -58,7 +57,7 @@ class About extends Component{
               <p className="step4">4. Pick a recipe and start cooking!</p>
             </div>
           </div>
-        </div>
+      </div>
     </section>
   )
   }
