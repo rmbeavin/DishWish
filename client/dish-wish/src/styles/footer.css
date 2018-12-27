@@ -1,23 +1,33 @@
-
-/* .bottom {
+.bottom {
   display: flex;
-  overflow: hidden;
-  background-color: #f9f577;
+  justify-content: space-around;
+  color: white;
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: orange;
   font-family: 'Montserrat', sans-serif;
 }
-.bottom a {
-  display: flex;
-  float: left;
-  font-size: 14px;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+
+.bottom a{
+  color: white;
 }
-.contact :hover a {
-  background-color: aqua; */
+
+.bottom a:hover{
+  background-color: #7aabf9;
 }
+
+.contact {
+  padding-top: 10px;
+}
+
 .copyright {
-  display: flex;
-  justify-content: center;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.socials {
+  padding: 5px 5px;
 }
