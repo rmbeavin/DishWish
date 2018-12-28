@@ -16,6 +16,7 @@ class Display extends React.Component {
       ingredientName: e.target.value
     });
   };
+  
   onSubmit = (e) => {
     e.preventDefault();
       axios.get(`http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${this.state.ingredientName}`).then((res) => {
