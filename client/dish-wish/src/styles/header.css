@@ -2,10 +2,12 @@
   overflow: hidden;
   background-color: orange;
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  height: 7vh;
 }
 
 .navbar a {
-  float: left;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -13,8 +15,11 @@
   text-decoration: none;
 }
 
+.icon {
+  height: 50px;
+}
+
 .dropdown {
-  float: left;
   overflow: hidden;
 }
 
@@ -29,7 +34,7 @@
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.links a:hover, .dropdown:hover .dropbtn {
   background-color: #7aabf9;
 }
 
@@ -48,7 +53,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .dropdown-content a:hover {
