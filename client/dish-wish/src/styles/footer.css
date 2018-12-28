@@ -2,12 +2,7 @@
   display: flex;
   justify-content: space-around;
   color: white;
-
- 
-
   align-items: center;
-  /*position:fixed;*/
-
   right: 0;
   bottom: 0;
   left: 0;
@@ -25,16 +20,16 @@
 }
 
 .contact {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .copyright {
   font-weight: normal;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .socials {
-  padding: 5px 5px;
+  padding: 8px 5px;
 }
 
 .socials img {
