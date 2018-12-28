@@ -1,31 +1,23 @@
 import React, { Component } from 'react';
+import Recipes from './Recipes';
+import '../styles/home.css';
 
 class Home extends Component{
-  render () {
+  render() {
     return (
       <div>
-        <div class="head">
-          //main menu goes here.
+        <div className= "logo">
+          <img className="logoImage" src="Logo-design-4.png"/>
         </div>
-        <div class= "logo">
-          <img scr="https://files.slack.com/files-pri/T055GEHEJ-FF1LCANA3/logo-design-3.png" alt="Logo one"/>
-        </div>
-        <div class="body">
-        <div class="search">
-          <h2>Hello</h2>
-          // API goes here, search bar.
-        </div>
-        <div class="results">
-          //Results from sreach go here.
-        </div>
-        <div class="foot">
-          <p>All right reserved Jacobaallen.com, copyright 2018.</p>
+        <div className="body">
+          <div className="search">
+          </div>
+        <div className="results">
         </div>
       </div>
     </div>
     )
   }
 }
-
 
 export default Home;

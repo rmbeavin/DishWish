@@ -1,0 +1,37 @@
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: orange;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom a{
+  color: white;
+}
+
+.bottom a:hover{
+  background-color: #7aabf9;
+}
+
+.contact {
+  padding-top: 5px;
+}
+
+.copyright {
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+.socials {
+  padding: 8px 5px;
+}
+
+.socials img {
+  margin: 0px 4px;
+}

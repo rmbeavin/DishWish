@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+#home {
+  font-family: 'Josefin Sans', cursive;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImage {
+  display: flex;
+  height: 15em;
+  width: 40em;
+  justify-content: center;
+  margin-top: 8em;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+}
