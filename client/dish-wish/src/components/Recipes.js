@@ -15,12 +15,21 @@ class Display extends React.Component {
     this.setState({
       ingredientName: e.target.value
     });
+
   };
+
+  // arrayMaker(){
+  //   this.state.recipes.map(this.state.recipes.ingredients.split(',').length => recArr.push());
+  //
+  // }
+
   onSubmit = (e) => {
     e.preventDefault();
       axios.get(`http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${this.state.ingredientName}`).then((res) => {
       console.log(res.data.results);
       this.setState({recipes: res.data.results, fireRedirect: false})
+      console.log(this.state.recipes[0].ingredients.split(',').length)
+      // console.log(arrayMaker());
       });
   };
   render() {

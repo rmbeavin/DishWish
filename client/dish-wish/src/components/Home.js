@@ -11,7 +11,6 @@ class Home extends Component{
         </div>
         <div className="body">
           <div className="search">
-            <Recipes />
           </div>
         <div className="results">
         </div>
