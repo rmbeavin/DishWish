@@ -2,7 +2,12 @@
   display: flex;
   justify-content: space-around;
   color: white;
-  position:fixed;
+
+ 
+
+  align-items: center;
+  /*position:fixed;*/
+
   right: 0;
   bottom: 0;
   left: 0;
@@ -30,4 +35,8 @@
 
 .socials {
   padding: 5px 5px;
+}
+
+.socials img {
+  margin: 0px 4px;
 }
