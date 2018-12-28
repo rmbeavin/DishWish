@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Recipes from './Recipes';
+import '../styles/home.css';
 
 class Home extends Component{
   render() {
     return (
       <div>
         <div className= "logo">
-          <img className="logoImage" src="Logo-design-4.png" alt="  "/>
+          <img className="logoImage" src="Logo-design-4.png"/>
         </div>
         <div className="body">
           <div className="search">
