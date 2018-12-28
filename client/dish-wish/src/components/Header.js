@@ -12,7 +12,7 @@ class Header extends Component{
           <Link to="/about">About</Link>
         </ul>
         <div className="dropdown">
-          <button className="dropbtn">Dropdown
+          <button className="dropbtn">More
             <i className="fa fa-caret-down"></i>
           </button>
           <div className="dropdown-content">

@@ -14,9 +14,11 @@
   border: solid orange;
   border-radius: 2em;
   padding: .2em;
-  padding-top: .5em;
+  padding-top: .2em;
   padding-left: .5em;
   padding-right: .5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 
 }
 
@@ -24,6 +26,8 @@
 .header {
   display: flex;
   justify-content: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .fridgetoPlate{
@@ -41,7 +45,7 @@
   color: white;
   border-top: solid #7aabf9;
   border-bottom: solid#7aabf9;
-  border-width: .2em;
+  border-width: .1em;
   justify-content: center;
 }
 
@@ -107,36 +111,46 @@
   border-bottom: dotted #7aabf9;
   width: 100%;
   align-items: space-between;
+  margin-top: 2em;
+  padding-top: 2em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
 }
 
 .instantService {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   color: white;
   background-color: orange;
-  padding: 2em;
-  margin: 2em;
-  width: 33;
+  width: 33%;
+  padding: 3em;
+  margin: 3em;
 }
 
 .convenience {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   color: white;
   background-color: orange;
-  padding: 2em;
-  margin: 2em;
   width: 33%;
+  padding: 3em;
+  margin: 3em;
 }
 
 .easyToUse{
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   color: white;
   background-color: orange;
-  padding: 2em;
-  margin: 2em;
   width: 33%;
+  padding: 3em;
+  margin: 3em;
 }
 
 .howItWorks{
@@ -181,6 +195,7 @@
   display: flex;
   justify-content: center;
   font-size: 1.5em;
+  padding-bottom: 2em;
 }
 
 .DemoCarousel {
