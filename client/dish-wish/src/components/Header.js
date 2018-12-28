@@ -6,7 +6,7 @@ class Header extends Component{
   render () {
     return (
       <div className="navbar">
-        <div class="icon">
+        <div className="icon">
           <Link to="/"><img className="icon logo" src="icon.png" alt="  "/></Link>
         </div>
         <div className="links">
@@ -22,7 +22,7 @@ class Header extends Component{
           <div className="dropdown-content">
             <ul>
               <Link to="/Contact">Contact Us</Link>
-              <Link to="/FAQ">FAQ</Link>
+              <Link to="/Faq">FAQ</Link>
             </ul>
           </div>
         </div>
