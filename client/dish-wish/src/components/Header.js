@@ -9,13 +9,12 @@ class Header extends Component{
         <div class="icon">
           <Link to="/"><img className="icon logo" src="icon.png" alt="  "/></Link>
         </div>
-        <div class="links">
+        <div className="links">
         <ul>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/recipes">Recipes</Link>
         </ul>
-      </div>
         <div className="dropdown">
           <button className="dropbtn">More
             <i className="fa fa-caret-down"></i>
@@ -24,11 +23,11 @@ class Header extends Component{
             <ul>
               <Link to="/Contact">Contact Us</Link>
               <Link to="/FAQ">FAQ</Link>
-              <Link to="/Founders">Founders</Link>
             </ul>
           </div>
         </div>
       </div>
+    </div>
     )
   }
 }

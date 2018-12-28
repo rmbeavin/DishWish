@@ -7,7 +7,7 @@
   height: 7vh;
 }
 
-.navbar a {
+.links a {
   font-size: 16px;
   color: white;
   text-align: center;
@@ -15,8 +15,15 @@
   text-decoration: none;
 }
 
+.links {
+  display: flex;
+  align-items: center;
+  height: 7vh;
+}
+
 .icon {
   height: 50px;
+  padding-left: 10px;
 }
 
 .dropdown {
