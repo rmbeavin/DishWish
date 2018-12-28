@@ -7,7 +7,6 @@ import Footer from './Footer';
 import Contact from './Contact';
 import FAQ from './FAQ';
 import Founders from './Founders';
-import Recipes from './Recipes';
 
 class App extends React.Component{
   render () {
@@ -20,6 +19,7 @@ class App extends React.Component{
         <Route path="/contact" component={Contact} />
         <Route path="/faq" component={FAQ} />
         <Route path="/founders" component={Founders} />
+
         <Route path='/recipes' component={Recipes} />
         <Footer/>
 			</div>
