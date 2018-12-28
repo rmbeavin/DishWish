@@ -5,7 +5,7 @@ import Home from './Home';
 import Header from './Header';
 import Footer from './Footer';
 import Contact from './Contact';
-import FAQ from './FAQ';
+import Faq from './Faq';
 import Recipes from './Recipes';
 
 class App extends React.Component{
@@ -17,7 +17,7 @@ class App extends React.Component{
 				<Route exact path="/" component={Home} />
 				<Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
-        <Route path="/faq" component={FAQ} />
+        <Route path="/faq" component={Faq} />
         <Route path='/recipes' component={Recipes} />
         <Footer/>
 			</div>
