@@ -13,6 +13,7 @@ class Header extends Component{
         <ul>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
+          <Link to="/recipes">Recipes</Link>
         </ul>
       </div>
         <div className="dropdown">
