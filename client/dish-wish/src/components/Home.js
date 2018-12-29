@@ -11,6 +11,7 @@ class Home extends Component{
         <div className='logo'>
           <div className='dwIcon'>
             <img src="DishWish.png" alt="" />
+
           </div>
           <svg id='letters'
             width="670" height="114" viewBox="0 0 670 114" fill="none" xmlns="http://www.w3.org/2000/svg">

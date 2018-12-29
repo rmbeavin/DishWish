@@ -2,8 +2,8 @@ import React from 'react';
 import { Grid, Card, Image } from 'semantic-ui-react';
 
 const cards = {
-  width: '550px',
-  height: '500px',
+  width: '300px',
+  height: '400px',
   margin: '10px'
 }
 const DisplayRecipe = (props) => {
@@ -12,7 +12,7 @@ const DisplayRecipe = (props) => {
           <Grid.Column >
             <Grid.Row >
               <Card.Group>
-              <Card>
+              <Card style={cards}>
                 <Image src={props.recipe.thumbnail} width='150px' height='150px' centered/>
                 <Card.Header><h4>{props.recipe.title}</h4></Card.Header>
                 <Card.Content>
@@ -26,5 +26,5 @@ const DisplayRecipe = (props) => {
         </div>
     );
   }
-  
+
 export default DisplayRecipe;
