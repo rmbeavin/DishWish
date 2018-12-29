@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Accordion, Icon } from 'semantic-ui-react';
 
+
 export default class Faq extends Component {
   state = { activeIndex: 0 }
 
@@ -8,7 +9,6 @@ export default class Faq extends Component {
     const { index } = titleProps
     const { activeIndex } = this.state
     const newIndex = activeIndex === index ? -1 : index
-
     this.setState({ activeIndex: newIndex })
   }
 
@@ -16,25 +16,26 @@ export default class Faq extends Component {
     const { activeIndex } = this.state
 
     return (
-			<div className="body">
+      <div style={{backgroundColor: '#424e60', height: '100vh'}}>
+			<div style={{display: 'flex', justifyContent: 'center', fontSize: '2vh', color: 'red'}}>
       <Accordion styled>
         <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
           <Icon name='dropdown' />
-          	Q: How do you know carrots are good for your eyes?
+          	Frequently asked question.
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 0}>
           <p>
-            A: You never see rabbits wearing glasses.
+            Questions people offen ask us.
           </p>
         </Accordion.Content>
 
         <Accordion.Title active={activeIndex === 1} index={1} onClick={this.handleClick}>
           <Icon name='dropdown' />
-          Q: You throw away the outside and cook the inside. Then you eat the outside and throw away the inside. What is it?
+            Q: How do you use DishWish?
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 1}>
           <p>
-						A: ear of corn.
+            A: When on the home page you click Make A Dish. Once on the Recipes page type in the ingredients you have with commas, but no spaces inbetween. The results are then displayed below. Then make the dish of your choice and enjoy your meal.
           </p>
         </Accordion.Content>
 
@@ -44,17 +45,17 @@ export default class Faq extends Component {
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 2}>
           <p>
-            A: No, you can not.
+            A: Not right now, but we are currently lookin in to this.
           </p>
         </Accordion.Content>
 
 				<Accordion.Title active={activeIndex === 3} index={3} onClick={this.handleClick}>
           <Icon name='dropdown' />
-					Q: Can I filter the results for my allergies?
+					Q: Does your website grant wishes?
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 3}>
           <p>
-            A: No, just use ingredients in your recipe that your not allergic too.
+            A: Yes.
           </p>
         </Accordion.Content>
 
@@ -117,8 +118,29 @@ export default class Faq extends Component {
             A: Eggplant.
           </p>
         </Accordion.Content>
+
+        <Accordion.Title active={activeIndex === 10} index={10} onClick={this.handleClick}>
+          <Icon name='dropdown' />
+            Q: How do you know carrots are good for your eyes?
+        </Accordion.Title>
+        <Accordion.Content active={activeIndex === 10}>
+          <p>
+            A: You never see rabbits wearing glasses.
+          </p>
+        </Accordion.Content>
+
+        <Accordion.Title active={activeIndex === 11} index={11} onClick={this.handleClick}>
+          <Icon name='dropdown' />
+            Q: How do I support DishWish?
+        </Accordion.Title>
+        <Accordion.Content active={activeIndex === 11}>
+          <p>
+            A: You can either send us money though pay pal or though our Patron page.
+          </p>
+        </Accordion.Content>
       </Accordion>
 		</div>
+  </div>
     )
   }
 }
