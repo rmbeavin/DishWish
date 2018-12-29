@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Accordion, Icon } from 'semantic-ui-react';
 
 
-export default class Faq extends Component {
+export default class FAQ extends Component {
   state = { activeIndex: 0 }
 
   handleClick = (e, titleProps) => {
