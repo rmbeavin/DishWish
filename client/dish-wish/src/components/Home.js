@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import Recipes from './Recipes';
 import '../styles/home.css';
-import Footer from './Footer';
+import {Link} from 'react-router-dom';
+
 
 class Home extends Component{
   render() {
     return (
-      
       <div>
         <div className='logo'>
           <div className='dwIcon'>
-            <img src="DishWish.png" alt="" />
-
+            <Link to="/recipes"><img src="DishWish.png" alt="" /></Link>
           </div>
           <svg id='letters'
             width="670" height="114" viewBox="0 0 670 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +38,5 @@ class Home extends Component{
     )
   }
 }
-
-
 
 export default Home;

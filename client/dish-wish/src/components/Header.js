@@ -13,7 +13,6 @@ class Header extends Component{
             <Link to="/recipes">Recipes</Link>
           </ul>
       </div>
-
         <div className="dropdown">
           <button className="dropbtn">More
             <i className="fa fa-caret-down"></i>
@@ -21,12 +20,11 @@ class Header extends Component{
           <div className="dropdown-content">
             <ul>
               <Link to="/Contact">Contact Us</Link>
-              <Link to="/FAQ">FAQ</Link>
+              <Link to="/Faq">FAQ</Link>
             </ul>
           </div>
         </div>
       </div>
-    
     )
   }
 }
