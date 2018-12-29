@@ -8,14 +8,11 @@ const columns = {
   height: "100%",
   width: '100%'
 }
-
 class Recipes extends React.Component {
   state = {
     recipes: [],
-    ingredientName: '',
-    // render: true,
+    ingredientName: ''
   }
-
   arrayMaker = () => {
     let x = this.state.recipes
     let newArray = [];
@@ -28,25 +25,15 @@ class Recipes extends React.Component {
     this.setState({recipes: newTest})
     console.log(this.state.recipes)
   }
-
   handleSearchChange = e => {
     this.setState({ingredientName: e.target.value});
   };
-
   onSubmit = (e) => {
     e.preventDefault();
     axios.get(`http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${this.state.ingredientName}`).then((res) => {
-      // console.log('original order: ' + res.data.results);
-      console.log(this.state.ingredientName)
       this.setState({recipes: res.data.results})
-      // console.log(this.state.recipes[0].ingredients.split(',').length)
-      // let test = this.arrayMaker(this.state.recipes)
-      // let newTest = test.sort((a, b) => b - a)
-      // console.log('test: ' + test)
-      // console.log(this.state.recipes.arrayMaker());
     });
   };
-
   render() {
     return (
       <div>
@@ -62,4 +49,5 @@ class Recipes extends React.Component {
   );
   }
 }
+
 export default Recipes;
