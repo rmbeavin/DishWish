@@ -31,7 +31,7 @@ export default class FAQ extends Component {
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 1}>
           <p>
-            A: When on the home page you click the plate with silverware, it takes you to the Recipes page. On the Recipes page, type in the ingredients you have. The results are then displayed below. Finally, make the dish of your choice, and enjoy your meal.
+            A: On the home page, click the plate with silverware. This will take you to the Recipes page. On the Recipes page, type in the ingredients you have. The results are then displayed below. Finally, make the dish of your choice, and enjoy your meal.
           </p>
         </Accordion.Content>
         <Accordion.Title active={activeIndex === 2} index={2} onClick={this.handleClick}>
