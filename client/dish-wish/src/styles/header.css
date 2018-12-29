@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 .navbar {
   overflow: hidden;
-  background-color: orange;
-  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   align-items: center;
   height: 7vh;
@@ -9,15 +10,12 @@
 
 .navbar a {
   font-size: 16px;
-  color: white;
+  color: red;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.icon {
-  height: 50px;
-}
 
 .dropdown {
   overflow: hidden;
@@ -27,7 +25,7 @@
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: red;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -41,7 +39,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: orange;
+  background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -49,7 +47,7 @@
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: red;
   padding: 12px 16px;
   text-decoration: none;
   display: block;

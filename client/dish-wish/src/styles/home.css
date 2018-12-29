@@ -1,23 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
-#home {
-  font-family: 'Josefin Sans', cursive;
-}
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logoImage {
-  display: flex;
-  height: 15em;
-  width: 40em;
-  justify-content: center;
-  margin-top: 8em;
-}
 
 .search{
   display: flex;
   justify-content: center;
+}
+
+.dwIcon{
+  display: flex;
+  justify-content: center;
+  height: 8em;
+  width: 12em;
+  position: absolute;
+  top: 50%;
+  left: 71%;
+  transform: translate(-50%, -50%);
+
+
+}
+.logo {
+	display: flex;
+	justify-content: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #424e60;
+}
+
+#letters{
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translate(-50%, -50%);
 }

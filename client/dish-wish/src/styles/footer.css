@@ -1,23 +1,18 @@
-.bottom {
-  display: flex;
-  justify-content: space-around;
-  color: white;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
- 
 
-  align-items: center;
-  /*position:fixed;*/
-
-  right: 0;
-  bottom: 0;
+.footer {
+  position: fixed;
   left: 0;
-  padding: 0;
-  background-color: orange;
-  font-family: 'Montserrat', sans-serif;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: red;
+  text-align: center;
 }
 
 .bottom a{
-  color: white;
+  color: red;
 }
 
 .bottom a:hover{
@@ -30,7 +25,6 @@
 
 .copyright {
   font-weight: normal;
-  padding-top: 10px;
 }
 
 .socials {
