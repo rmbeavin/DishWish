@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 import '../styles/footer.css';
 
 class Footer extends Component{
   render () {
     return (
-      <div class="footer">
+      <div className="footer">
         <div className="copyright">
           <p>All Rights Reserved Copyright 2019 DishWish, LLC.</p>
         </div>
