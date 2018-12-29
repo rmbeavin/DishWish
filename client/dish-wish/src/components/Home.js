@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Recipes from './Recipes';
 import '../styles/home.css';
-import Footer from './Footer';
+
 
 class Home extends Component{
   render() {
     return (
-      
+
       <div>
         <div className='logo'>
           <div className='dwIcon'>

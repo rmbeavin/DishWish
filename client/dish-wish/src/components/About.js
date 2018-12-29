@@ -12,8 +12,8 @@ class About extends Component{
             <h1 className="aboutTitle">About DishWish</h1>
           </header>
 
-          <div class="hero-image">
-            <div class="hero-text">
+          <div className="hero-image">
+            <div className="hero-text">
               <h1>Food</h1>
             </div>
           </div>
