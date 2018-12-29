@@ -5,12 +5,9 @@ import '../styles/footer.css';
 class Footer extends Component{
   render () {
     return (
-      <div className="bottom">
-        <div className="contacts">
-          <Link to="/Contact">Contact Us</Link>
-        </div>
+      <div class="footer">
         <div className="copyright">
-          All Rights Reserved Copyright 2019 DishWish, LLC.
+          <p>All Rights Reserved Copyright 2019 DishWish, LLC.</p>
         </div>
         <div className="socials">
           <img className="facebook" src="facebook.png" alt="  "/>
