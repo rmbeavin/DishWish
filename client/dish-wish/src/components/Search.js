@@ -7,6 +7,7 @@ const Search = (props) => {
           <input type="text" name="test" value={JSON.stringify(props.inputValue)} placeholder="chicken, rice, tomatoes, etc" onChange={props.handleSearchChange} />
           <button>Submit</button>
         </form>
+        <button onClick={props.sendArrayMaker}>Sort</button>
       </div>
     )
 };
