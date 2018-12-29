@@ -13,7 +13,8 @@ class Recipes extends React.Component {
     recipes: [],
     ingredientName: ''
   }
-  arrayMaker = () => {
+  arrayMaker = (e) => {
+    e.preventDefault();
     let x = this.state.recipes
     let newArray = [];
     for (let i = 0; i < x.length; i++) {
