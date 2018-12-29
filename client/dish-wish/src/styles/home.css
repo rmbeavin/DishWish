@@ -9,10 +9,7 @@
   justify-content: center;
   height: 8em;
   width: 12em;
-  position: absolute;
-  top: 50%;
-  left: 71%;
-  transform: translate(-50%, -50%);
+  margin-top: 7em;
 
 
 }
@@ -28,6 +25,6 @@
 #letters{
   position: absolute;
   top: 50%;
-  left: 43%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
