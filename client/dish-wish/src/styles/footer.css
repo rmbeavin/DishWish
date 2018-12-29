@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 
@@ -20,7 +21,7 @@
 }
 
 .contact {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .copyright {
@@ -28,7 +29,7 @@
 }
 
 .socials {
-  padding: 5px 5px;
+  padding: 8px 5px;
 }
 
 .socials img {

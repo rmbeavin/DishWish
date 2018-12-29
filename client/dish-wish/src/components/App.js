@@ -6,7 +6,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Contact from './Contact';
 import FAQ from './FAQ';
-import Founders from './Founders';
+import Recipes from './Recipes';
 
 class App extends React.Component{
   render () {
@@ -17,8 +17,8 @@ class App extends React.Component{
 				<Route exact path="/" component={Home} />
 				<Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
-        <Route path="/faq" component={FAQ} />
-        <Route path="/founders" component={Founders} />
+        <Route path="/FAQ" component={FAQ} />
+        <Route path='/recipes' component={Recipes} />
         <Footer/>
 			</div>
 		</Router>
