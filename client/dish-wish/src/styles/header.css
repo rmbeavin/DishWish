@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+
 .navbar {
   overflow: hidden;
   background-color: white;
@@ -30,6 +31,7 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  border-radius:0%;
 }
 
 .links a:hover, .dropdown:hover .dropbtn {
