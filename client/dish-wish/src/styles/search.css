@@ -43,3 +43,17 @@ input{
 ::placeholder{
   color: white;
 }
+
+.ui.card,
+.ui.cards>.card {
+  background-color: #87CEFA;
+}
+
+.ui.card>.content,
+.ui.cards>.card>.content {
+  background-color: #FFFF99;
+}
+
+.ui.grid {
+  padding-bottom: 5em;
+}
