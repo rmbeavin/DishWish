@@ -14,7 +14,7 @@ export default class FAQ extends Component {
     const { activeIndex } = this.state
     return (
       <div style={{backgroundColor: '#424e60', height: '100vh'}}>
-			<div style={{display: 'flex', justifyContent: 'center', fontSize: '2vh', color: 'red'}}>
+			<div style={{display: 'flex', justifyContent: 'center', fontSize: '2vh', color: 'red', paddingtop: '2em;'}}>
       <Accordion styled>
         <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
           <Icon name='dropdown' />
@@ -54,11 +54,11 @@ export default class FAQ extends Component {
         </Accordion.Content>
 				<Accordion.Title active={activeIndex === 4} index={4} onClick={this.handleClick}>
           <Icon name='dropdown' />
-					Q: Is there a way to make chicken recipes without using chicken?
+					Q: Are there vegan recipes available?
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 4}>
           <p>
-            A: Yes, it is called using tofu as a substitute.
+            A: Yes.
           </p>
         </Accordion.Content>
 				<Accordion.Title active={activeIndex === 5} index={5} onClick={this.handleClick}>
@@ -72,47 +72,47 @@ export default class FAQ extends Component {
         </Accordion.Content>
 				<Accordion.Title active={activeIndex === 6} index={6} onClick={this.handleClick}>
           <Icon name='dropdown' />
-						Q: What day is a potatoe's least favorite?
+						Q: Are there dessert recipes available?
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 6}>
           <p>
-            A: Fri-day.
+            A: yes.
           </p>
         </Accordion.Content>
 				<Accordion.Title active={activeIndex === 7} index={7} onClick={this.handleClick}>
           <Icon name='dropdown' />
-						Q: What did the doctor prescribe to the sick lemon?
+						Q: Can I substitute ingredients on the recipes provided?
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 7}>
           <p>
-            A: Lemon-aid.
+            A: Yes, but be aware that substituting ingredients can change the flavor of your dish.
           </p>
         </Accordion.Content>
 				<Accordion.Title active={activeIndex === 8} index={8} onClick={this.handleClick}>
           <Icon name='dropdown' />
-						Q: What fruit never ever wants to be alone?
+						Q: Can I use this on my mobile/tablet?
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 8}>
           <p>
-            A: A pear.
+            A: Yes.
           </p>
         </Accordion.Content>
         <Accordion.Title active={activeIndex === 9} index={9} onClick={this.handleClick}>
           <Icon name='dropdown' />
-						Q: What vegetable grows eggs?
+						Q: Do your recipes provide nutritional facts?
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 9}>
           <p>
-            A: Eggplant.
+            A: Not at the moment, but we are working on it.
           </p>
         </Accordion.Content>
         <Accordion.Title active={activeIndex === 10} index={10} onClick={this.handleClick}>
           <Icon name='dropdown' />
-            Q: How do you know carrots are good for your eyes?
+            Q: Can I see items in a certain order?
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 10}>
           <p>
-            A: You never see rabbits wearing glasses.
+            A: Yes, they are sorted alphabetically.
           </p>
         </Accordion.Content>
         <Accordion.Title active={activeIndex === 11} index={11} onClick={this.handleClick}>
