@@ -13,6 +13,7 @@ class Recipes extends React.Component {
     recipes: [],
     ingredientName: ''
   }
+
   arrayMaker = (e) => {
     e.preventDefault();
     let x = this.state.recipes
@@ -24,17 +25,18 @@ class Recipes extends React.Component {
     }
     let newTest = newArray.sort((a, b) => (a.num_ingredients - b.num_ingredients))
     this.setState({recipes: newTest})
-    console.log(this.state.recipes)
   }
   handleSearchChange = e => {
     this.setState({ingredientName: e.target.value});
   };
   onSubmit = (e) => {
     e.preventDefault();
-    axios.get(`http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${this.state.ingredientName}`).then((res) => {
-      this.setState({recipes: res.data.results})
-    });
-  };
+    axios.get(`/api/${this.state.ingredientName}`).then(({data}) => {
+      this.setState({recipes: data})
+      console.log(data)
+    }).catch(err => console.log(err))
+  }
+
   render() {
     return (
       <div>
