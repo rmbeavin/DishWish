@@ -14,7 +14,7 @@ export default class FAQ extends Component {
     const { activeIndex } = this.state
     return (
       <div style={{backgroundColor: '#424e60', height: '100vh'}}>
-			<div style={{display: 'flex', justifyContent: 'center', fontSize: '2vh', color: 'red', paddingtop: '2em;'}}>
+			<div style={{display: 'flex', justifyContent: 'center', fontSize: '2vh', color: 'red', paddingtop: '2em'}}>
       <Accordion styled>
         <Accordion.Title active={activeIndex === 0} index={0} onClick={this.handleClick}>
           <Icon name='dropdown' />
