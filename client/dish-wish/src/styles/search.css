@@ -46,12 +46,15 @@ input{
 
 .ui.card,
 .ui.cards>.card {
-  background-color: #87CEFA;
+  background-color: #7aabf9;
+  padding-top: 1em;
+  color: white;
+  border: solid gray;
 }
 
 .ui.card>.content,
 .ui.cards>.card>.content {
-  background-color: #FFFF99;
+  background-color: #424e60;
 }
 
 .ui.grid {

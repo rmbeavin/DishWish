@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/about.css';
+import DemoCarousel from './Carousel'
 
 class About extends Component{
   render () {
@@ -9,10 +10,8 @@ class About extends Component{
           <header className="header">
             <h1 className="aboutTitle">About DishWish</h1>
           </header>
-          <div className="hero-image">
-            <div className="hero-text">
-              <h1>Food</h1>
-            </div>
+          <div className = "DemoCarousel">
+            <DemoCarousel/>
           </div>
           <div className="fridgetoPlate">
             <img className="redFridge"src="redfridge.png" alt="" />

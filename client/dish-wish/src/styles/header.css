@@ -23,11 +23,12 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 1.1em;
   border: none;
   outline: none;
   color: red;
-  padding: 14px 16px;
+  padding-right: 4em;
+  width: 8em;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
