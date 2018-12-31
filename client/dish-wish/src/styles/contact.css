@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.content{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.contact{
+  display: flex;
+  justify-content: center;
+  height: 3em;
+  font-size: 3em;
+  color: red;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  justify-content: center;
+  margin-left: 42em;
+  width: 20em;
+}
+
+.inputfirstname{
+  border: none;
+  background-color: #424e60;
+  border-width: thin;
+  height: 2em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  box-shadow: 5px 5px 2px grey;
+}
+
+.inputlastname{
+  background-color:#424e60;
+  border-width: thin;
+  height: 2em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  box-shadow: 5px 5px 2px grey;
+}
+
+.inputemail{
+  background-color: #424e60;
+  border-width: thin;
+  height: 2em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  box-shadow: 5px 5px 2px grey;
+}
+
+.inputquestion{
+  background-color: #424e60;
+  border-width: thin;
+  height: 2em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  box-shadow: 5px 5px 2px grey;
+}
+
+.contactButton{
+  background-color: gray;
+  color: white;
+  height: 2em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  box-shadow: 5px 5px 2px grey;
+}
