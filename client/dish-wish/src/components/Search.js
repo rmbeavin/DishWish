@@ -4,7 +4,7 @@ import '../styles/search.css';
 const Search = (props) => {
     return (
       <div className="content">
-        <div className="contentTitle">LETS GET COOKING!</div>
+        <div className="contentTitle">LET'S GET COOKING!</div>
         <img className="cooking" src="cooking.jpg" alt="" />
         <form className="searchForm" onSubmit={props.onSubmit}>
           <input className="searchInput" type="text" name="test" value={JSON.stringify(props.inputValue)} placeholder="chicken, rice, tomatoes, etc" onChange={props.handleSearchChange} />
