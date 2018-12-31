@@ -19,11 +19,12 @@
   flex-direction: column;
   width: 10em;
   justify-content: center;
-  margin-left: 42em;
+  margin-left: 47em;
   width: 20em;
 }
 
 .inputfirstname{
+  display: flex;
   border: none;
   background-color: #424e60;
   border-width: thin;
@@ -34,6 +35,7 @@
 }
 
 .inputlastname{
+  display: flex;
   background-color:#424e60;
   border-width: thin;
   height: 2em;
@@ -43,6 +45,7 @@
 }
 
 .inputemail{
+  display: flex;
   background-color: #424e60;
   border-width: thin;
   height: 2em;
@@ -52,6 +55,7 @@
 }
 
 .inputquestion{
+  display: flex;
   background-color: #424e60;
   border-width: thin;
   height: 2em;
@@ -61,6 +65,7 @@
 }
 
 .contactButton{
+  display: flex;
   background-color: gray;
   color: white;
   height: 2em;
