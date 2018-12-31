@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-button{
+.submitbutton{
   display: flex;
   justify-content: center;
   height: 3em;
@@ -14,6 +14,17 @@ button{
   background-color: gray;
   font-family: 'Poppins', sans-serif;
   color: white;
+}
+
+.sortButton{
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    width: 10em;
+    border-radius: 2em;
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 .buttons{
@@ -28,9 +39,10 @@ button{
   margin-right: 2em;
 }
 
-input{
+.searchInput{
   display: flex;
-  margin-top: 15em;
+  justify-content: center;
+  margin-top: 2em;
   height: 4em;
   background-color: #424e60;
   font-family: 'Poppins', sans-serif;
@@ -38,6 +50,7 @@ input{
   border-radius: 5em;
   margin-bottom: .5em;
   color: white;
+  margin-left: 27em;
 }
 
 ::placeholder{
@@ -59,4 +72,24 @@ input{
 
 .ui.grid {
   padding-bottom: 5em;
+}
+
+.contentTitle{
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  margin-top: 1em;
+  color: white;
+  background-color: #424e60;
+  height: 1em;
+  padding-top: .3em;
+}
+
+.cooking{
+  display: flex;
+  justify-content: center;
+  height: 20em;
+  width: 50em;;
+  margin-left: 27em;
+  margin-top: 2em;
 }

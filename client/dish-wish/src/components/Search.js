@@ -4,14 +4,16 @@ import '../styles/search.css';
 const Search = (props) => {
     return (
       <div className="content">
-        <form onSubmit={props.onSubmit}>
-          <input type="text" name="test" value={JSON.stringify(props.inputValue)} placeholder="chicken, rice, tomatoes, etc" onChange={props.handleSearchChange} />
+        <div className="contentTitle">LETS GET COOKING!</div>
+        <img className="cooking" src="cooking.jpg" alt="" />
+        <form className="searchForm" onSubmit={props.onSubmit}>
+          <input className="searchInput" type="text" name="test" value={JSON.stringify(props.inputValue)} placeholder="chicken, rice, tomatoes, etc" onChange={props.handleSearchChange} />
           <div className="buttons">
             <div className="submit">
-              <button>Submit</button>
+              <button className="submitbutton">Submit</button>
             </div>
             <div className="sort">
-              <button onClick={props.sendArrayMaker}>Sort</button>
+              <button className="sortButton" onClick={props.sendArrayMaker}>Sort</button>
             </div>
           </div>
         </form>
