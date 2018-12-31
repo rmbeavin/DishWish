@@ -94,17 +94,18 @@
 }
 .wonder{
   display: flex;
-  font-size: 3em;
+  font-size: 2.5em;
   flex-direction: column;
   justify-content: center;
   background-color: #424e60;
   border-radius: 2em;
-  padding-left: 3.5em;
+  padding-left: 2.5em;
   height: 2em;
   padding-right: 2em;
   border: solid #7aabf9;
   color: white;
   padding-top: .2em;
+  width: 15em;
 }
 
 .aboutParagraph {
