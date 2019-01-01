@@ -7,7 +7,7 @@ class About extends Component{
     return (
       <section id ='about'>
         <div>
-          <header className="header">
+          <header className="aboutContent">
             <h1 className="aboutTitle">About DishWish</h1>
           </header>
           <div className = "DemoCarousel">
