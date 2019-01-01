@@ -31,7 +31,7 @@ export default class FAQ extends Component {
         </Accordion.Title>
         <Accordion.Content active={activeIndex === 1}>
           <p>
-            A: On the home page, click the plate with silverware. This will take you to the Recipes page. On the Recipes page, type in the ingredients you have. The results are then displayed below. Finally, make the dish of your choice, and enjoy your meal.
+            A: To use DishWish simply click on the red plate icon above the DishWish logo, or click on the recipes tab at the top of the page. This will take you to the Recipes search page. On the Recipes page, type in the ingredients you have. The results will be displayed below. Finally, make the dish of your choice, and enjoy your meal.
           </p>
         </Accordion.Content>
         <Accordion.Title active={activeIndex === 2} index={2} onClick={this.handleClick}>
