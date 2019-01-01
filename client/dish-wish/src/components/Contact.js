@@ -29,6 +29,7 @@ class Contact extends Component{
   render (){
     return (
       <div className="content">
+        <div className="centered">
         <p className="contact">Contact Us</p>
         <form className='form'>
           <input className='inputfirstname'
@@ -54,6 +55,7 @@ class Contact extends Component{
 
           <button className="contactButton" onClick={(e)=> this.onSubmit}>Submit</button>
         </form>
+        </div>
       </div>
     );
   }
