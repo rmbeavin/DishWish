@@ -5,17 +5,10 @@
   font-family: 'Poppins', sans-serif;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
 }
-
-/* .centered {
-  margin: auto;
-} */
-
 
 .contact{
   display: flex;
-  /* justify-content: center; */
   height: 3em;
   font-size: 3em;
   color: red;
@@ -24,9 +17,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  /* width: 10em; */
   justify-content: center;
-  /* margin-left: 41.5em; */
   width: auto;
 }
 
