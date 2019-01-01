@@ -33,7 +33,6 @@ class Recipes extends React.Component {
     e.preventDefault();
     axios.get(`/api/${this.state.ingredientName}`).then(({data}) => {
       this.setState({recipes: data})
-      console.log(data)
     }).catch(err => console.log(err))
   }
 
