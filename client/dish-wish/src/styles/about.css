@@ -78,20 +78,23 @@
   border-bottom: solid#7aabf9;
   border-width: .1em;
   justify-content: center;
+  margin-top: 1em;
 }
 
 .mainContent {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   margin: 1em;
   padding: 2em;
+  margin-top: 5em;
 }
 
 .picAndQuestion{
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .wonder{
   display: flex;
@@ -107,13 +110,15 @@
   color: white;
   padding-top: .2em;
   width: 15em;
+  align-self: center;
 }
 
 .aboutParagraph {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  height: 100%;
+  align-self: center;
+  width: 12em;
+  height: 30em;
   font-size: 2em;
   justify-content: center;
   align-content: center;

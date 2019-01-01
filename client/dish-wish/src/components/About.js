@@ -33,11 +33,11 @@ class About extends Component{
               <p className="mottotext">Your dish, on demand</p>
           </div>
           <div className="mainContent">
+            <p className="wonder">What is DishWish?</p>
             <div className="picAndQuestion">
-              <p className="wonder">What is DishWish?</p>
               <p className="aboutParagraph"> This is a random recipe generator based on the ingredients you have readily available! DishWish was founded in 2018 by Robert Beavin, Stephanie Olaya and Jacob Allen as a service for people who struggle to come up with recipes on a day to day basis. The recipe is generated instantly, at the click of a button.</p>
+              <img className="stockedfridge" src="stockedfridge.jpg" alt="" />
             </div>
-            <img className="stockedfridge" src="stockedfridge.jpg" alt="" />
           </div>
       </div>
     </section>
