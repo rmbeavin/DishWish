@@ -17,7 +17,6 @@ class Contact extends Component{
 
   onSubmit = (e) => {
     e.preventDefault();
-    this.props.onSubmit();
     this.setState({
       firstName: '',
       lastName:'',
