@@ -6,12 +6,12 @@
 
 ### Installation
 
-Clone the repository and run, npm install in both the root and client directories. Run npm start in client and nodemon in root.
+* Clone the repository and run, npm install in both the root and client directories. Run npm start in client and nodemon in root.
 
 ### Future Additions
 
-Further styling the application
-Add more sort functionality
-Incorporate more recipe API calls to gather more options
+* Further styling the application
+* Add more sort functionality
+* Incorporate more recipe API calls to gather more options
 
 By Robert Beavin, Stephanie Olaya, and Jacob Allen
